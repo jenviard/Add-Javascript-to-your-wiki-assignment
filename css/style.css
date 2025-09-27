@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media only screen and (min-width: 600px)
+{
+  nav 
+  {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  nav ul 
+  {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      justify-items: center;
+      margin: 0;
+      padding: 0;
+  }
+
+
+  nav ul li a 
+  {
+    color: #0000FF; /* this is what the web said wikipedia used */ 
+    text-decoration: none;
+  }
+
+
+  nav ul li a:hover 
+  {
+    font-size: 20px;
+  }
+
+  h3
+  {
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 600;
+  }
+
+  p
+  {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 200;
+  }
+
+  .headline
+  {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .LOGO
+  {
+    font-size: 15px;
+    margin-bottom: 0%;
+  }
+
+  .SUBLOGO
+  {
+    text-decoration: underline;
+    font-size: 10px;
+    margin-top: 0%;
+  }
+
+  .photodesc
+  {
+      text-decoration: overline;
+  }
+
+  .decor /* working on diffrent edegs of boarderis is one of my CSS explanations */
+  {
+      width: auto;
+      height: 50px;
+      display: grid;
+      border-top: solid gray;
+      border-bottom: solid gray;
+  }
+
+  .two-photos 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    margin: 0 auto;   
+  }
+
+  .two-photos  img /* grids and images is one of my CSS explanations */
+  {
+    width: 300px; 
+  }
+
+  .two-photos  figure 
+  {
+    text-align: center;
+  }
+
+
+  .one-photo
+  {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+    margin: 0 auto;   
+  }
+
+  .one-photo  img
+  {
+    width: 300px; 
+  }
+
+  .one-photo  figure 
+  {
+    text-align: center;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 599px) 
+{
+  nav 
+  {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  nav ul 
+  {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      justify-items: center;
+      margin: 0;
+      padding: 0;
+  }
+
+
+  nav ul li a 
+  {
+    color: #0000FF; /* this is what the web said wikipedia used */ 
+    text-decoration: none;
+  }
+
+
+  nav ul li a:hover 
+  {
+    font-size: 20px;
+  }
+
+  h3
+  {
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 600;
+  }
+
+  p
+  {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 200;
+  }
+
+  .headline
+  {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .LOGO
+  {
+    font-size: 15px;
+  }
+
+  .SUBLOGO
+  {
+    text-decoration: underline;
+    font-size: 10px;
+    margin-top: auto;
+  }
+
+  .photodesc
+  {
+      text-decoration: overline;
+  }
+
+  .decor /* working on diffrent edegs of boarderis is one of my CSS explanations */
+  {
+      width: auto;
+      height: 200px;
+      display: grid;
+      border-top: solid gray;
+      border-bottom: solid gray;
+  }
+
+  .two-photos 
+  {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px; 
+    margin: 0 auto;   
+  }
+
+  .two-photos  img /* grids and images is one of my CSS explanations */
+  {
+    width: 300px; 
+  }
+
+  .two-photos  figure 
+  {
+    text-align: center;
+  }
+
+
+  .one-photo
+  {
+    display: grid;
+    grid-template-row: 1fr; 
+    gap: 20px; 
+    margin: 0 auto;   
+  }
+
+  .one-photo  img
+  {
+    width: 300px; 
+  }
+
+  .one-photo  figure 
+  {
+    text-align: center;
+  }
+
+}
